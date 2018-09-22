@@ -4,4 +4,4 @@ COPY . .
 
 RUN chmod 777 tally
 
-RUN ["./tally"]
+ENTRYPOINT ["./tally"]
